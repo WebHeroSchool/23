@@ -65,16 +65,14 @@ body{
 .wrapper{
   margin:auto;
   width: 80%;
-
-
 }
 .logo,.menu{
   display: inline-block;
-
 }
 .logo{
   margin-right: 63%;
   padding: 40px 0;
+  font-family: pt_serif,arial,helvetica,sans-serif;
 }
 .menu{
   display: flex;
