@@ -1,9 +1,9 @@
 nav{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 /* identical to box height */
 
 color: #000000;
@@ -58,8 +58,28 @@ border-radius: 4px;
 body{
   margin: 0;
 }
+.header{
+  display: flex;
+  justify-content: space-between;
+}
 .wrapper{
   margin:auto;
   width: 80%;
-  border: dashed 1px red;
+}
+.logo,.menu{
+  display: inline-block;
+}
+.logo{
+  margin-right: 63%;
+  padding: 40px 0;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.menu__item{
+  padding: 0 13px;
+}
+.menu__item:last-child{
+  padding-right: 0;
 }
