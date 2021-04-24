@@ -1,7 +1,5 @@
-
-
 .main-content__title{
-  font-family: 'PT Serif', serif;
+  font-family: 'pt_serif-bold', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -48,7 +46,7 @@ body{
   width: 190px;
   height:35px;
   background:url('img/logo.svg');
-  font-family: 'PT Serif', serif;
+  font-family: 'pt_serifbold', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
