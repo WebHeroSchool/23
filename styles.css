@@ -1,24 +1,6 @@
-nav{
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-/* identical to box height */
-  color: #000000;
-}
 
-div{
-  font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 32px;
-  /* identical to box height */
-  align-items: center;
-  color: #000000;
-}
-h1{
+
+.main-content__title{
   font-family: 'PT Serif', serif;
   font-style: normal;
   font-weight: bold;
@@ -29,7 +11,7 @@ h1{
   color: #000000;
 
 }
-p{
+.main-content__subtitle{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -66,10 +48,26 @@ body{
   width: 190px;
   height:35px;
   background:url('img/logo.svg');
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+    /* identical to box height */
+  align-items: center;
+  color: #000000;
+  }
 }
 .menu{
   display: flex;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: medium;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+/* identical to box height */
+  color: #000000;
 }
 .menu__item{
   position: relative;
