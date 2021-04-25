@@ -1,64 +1,37 @@
-nav{
+.main-content__title{
+  font-family: 'pt_serif-bold', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+
+}
+.main-content__subtitle{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+button{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
 /* identical to box height */
-
-color: #000000;
-
-}
-
-div{
-  font-family: 'PT Serif', serif;
-  font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 32px;
-/* identical to box height */
-align-items: center;
-
-color: #000000;
-}
-h1{
-  font-family: 'PT Serif', serif;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 66px;
-display: flex;
-align-items: center;
-
-color: #000000;
-
-}
-p{
-   font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-
-color: #000000;
-}
-button{
-  font-family: 'Roboto', sans-serif;
-   font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-
-border-radius: 4px;
+  color: #FFFFFF;
+  border-radius: 4px;
 }
 body{
   margin: 0;
 }
 .header{
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -70,16 +43,57 @@ body{
   display: inline-block;
 }
 .logo{
-  margin-right: 63%;
-  padding: 40px 0;
+  width: 190px;
+  height:35px;
+  background:url('img/logo.svg');
+  font-family: 'pt_serifbold', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+    /* identical to box height */
+  align-items: center;
+  color: #000000;
+  }
 }
 .menu{
   display: flex;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: medium;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+/* identical to box height */
+  color: #000000;
 }
 .menu__item{
-  padding: 0 13px;
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px 'Roboto',arial,helvetica,sans-serif;
+  color: #000;
+  text-decoration:none;
+  transition: opacity .5;
+
 }
 .menu__item:last-child{
-  padding-right: 0;
+  margin-right: 0;
+}
+.menu__item:after{
+  position: absolute;
+  display:block;
+  content:"";
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .5s,width .5s;
+}
+.menu__item:hover{
+  opacity: .5;
+}
+.menu__item:hover:after,.menu__item_active:after{
+  opacity: 1;
+  width: 100%;
 }
