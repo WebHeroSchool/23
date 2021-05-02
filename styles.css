@@ -59,13 +59,6 @@ body{
 .menu{
   display: flex;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
-  font-style: medium;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-/* identical to box height */
-  color: #000000;
 }
 .menu__item{
   position: relative;
