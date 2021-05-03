@@ -1,15 +1,36 @@
 .main__title{
   margin:0 0 40px 0;
   font: bold 66px/87px 'pt_serifbold',arial,helvetica,sans-serif;
+  position: absolute;
+width: 567px;
+height: 255px;
+left: calc(50% - 567px/2 - 481.5px);
+top: 318px;
 }
 .main__subtitle{
   margin: 0 0 41px 0;
   font: 18px/21px 'Roboto',arial,helvetica,sans-serif;
+  position: absolute;
+width: 455px;
+height: 52px;
+left: calc(50% - 455px/2 - 537.5px);
+top: 613px;
+
 }
 .main{
   padding: 0 63% 206px 0;
   background:top right no-repeat url(img/mainimg.svg);
+
 }
+.mainimg.svg{
+  position: absolute;
+  width: 770px;
+  height: 657px;
+  left: calc(50% - 770px/2 + 378px);
+  top: 242px;
+
+}
+
 .main__title-text_highlight{
   background: #ECF3FF
 }
@@ -22,6 +43,11 @@
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
+  position: absolute;
+  width: 271px;
+  height: 57px;
+  left: 196px;
+  top: 706px;
 }
 .main__button:hover{
   opacity:.5;
@@ -102,11 +128,11 @@ body{
 .menu__btn {
   display: flex; /* используем flex для центрирования содержимого */
   align-items: center;;  /* центрируем содержимое кнопки */
-  position: fixed;
-  top: 32px;
-  left: 326px;
+  position: absolute;
   width: 25px;
   height: 17px;
+  left: 326px;
+  top: 32px;;
   cursor: pointer;
   z-index: 1;
 }
@@ -197,5 +223,12 @@ body{
   }
   .logo{
   background:url('img/mobilelogo.svg')no-repeat;
+  height: 35px;
+  width: 36px;
+  left: 24px;
+  top: 24px;
+  border-radius: 0px;
+  position: absolute;
+
 
 }
